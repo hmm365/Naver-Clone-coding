@@ -1,4 +1,4 @@
-@mixin ellipse {
+@mixin ellipsis {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -12,4 +12,10 @@
     display: -webkit-box;
     -webkit-line-clamp: $lines;
     -webkit-box-orient: vertical; /* autoprefixer: off */
+}
+
+@mixin  common-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
 }

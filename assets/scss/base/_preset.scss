@@ -18,3 +18,18 @@
         display: none;
     }
 }
+
+body.scroll-off{
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+// functional css
+.fw700 {
+    font-weight: 700;
+}
+
+.color-point {
+    color: $point-color;
+}
